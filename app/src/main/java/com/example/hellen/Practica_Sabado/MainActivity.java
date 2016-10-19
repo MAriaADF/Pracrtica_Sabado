@@ -18,7 +18,20 @@ import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-   
+    ImageButton negro;
+    ImageButton blanco;
+    ImageButton rojo;
+    ImageButton verde;
+    ImageButton azul;
+    private static Lienzo lienzo;
+    float ppequenyo;
+    float pmediano;
+    float pgrande;
+    float pdefecto;
+    ImageButton trazo;
+    ImageButton anyadir;
+    ImageButton borrar;
+    ImageButton guardar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
