@@ -58,6 +58,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_weight="1"
+        android:shape="oval"
         android:layout_height="0dp">
 
         <ImageButton
@@ -65,41 +66,39 @@
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColornegro"
-            android:tag="#FF000000"
-            android:background="#FF000000"
-            />
+            android:background="@drawable/btnnegro"
+            android:baselineAlignBottom="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColorblanco"
-            android:tag="#FFFFFFFF"
-            android:background="#FFFFFFFF"/>
+            android:background="@drawable/btnAmarillo"
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColorazul"
-            android:tag="#FF0000FF"
-            android:background="#FF0000FF"/>
+            android:background="@drawable/btnblanco"/>
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColorrojo"
-            android:tag="##f9ff00d9"
-            android:background="#f9ff00d9" />
+            android:background="@drawable/btnrojo"/>
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColorverde"
-            android:tag="#FF00FF00"
-            android:background="#FF00FF00"/>
+            android:background="@drawable/btn"/>
     </LinearLayout>
 
 </LinearLayout>
