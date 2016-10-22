@@ -77,7 +77,7 @@
             android:layout_weight="1"
             android:layout_height="@dimen/alturacolor"
             android:id="@+id/ibtnColorblanco"
-            android:background="@drawable/btnAmarillo"
+            android:background="@drawable/btnAmarillo"/>
 
         <ImageButton
             android:layout_width="0dp"
