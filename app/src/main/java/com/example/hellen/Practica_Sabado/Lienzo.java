@@ -68,6 +68,7 @@ public class Lienzo extends View {
         canvas.drawBitmap(canvasBitmap, 0, 0, canvasPaint);
         canvas.drawPath(drawPath, drawPaint);
     }
+
     //Registra los touch de usuario
     @Override
     public boolean onTouchEvent(MotionEvent event) {
@@ -117,7 +118,6 @@ public class Lienzo extends View {
             drawPaint.setColor(paintColor);
         }
     }
-
 
     public void NuevoDibujo(){
         drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
